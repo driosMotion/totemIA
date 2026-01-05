@@ -1,6 +1,7 @@
 {
-  "name": "photobooth",
-  "version": "0.1.0",
+  "name": "photobooth-ia-totem",
+  "version": "1.0.0",
+  "description": "Photobooth interactivo con filtros de IA para totem touchscreen",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,7 +10,10 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@fal-ai/client": "^1.8.1",
+    "@types/qrcode.react": "^1.0.5",
     "next": "16.1.1",
+    "qrcode.react": "^4.2.0",
     "react": "19.2.3",
     "react-dom": "19.2.3"
   },
